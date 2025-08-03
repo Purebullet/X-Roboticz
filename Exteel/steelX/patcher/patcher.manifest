@@ -1,0 +1,26 @@
+{
+  "exe_fileName": "\"{exedir}/SteelX_Patcher_2.exe\"",
+  "exe_arguments": "--installdir \"{installdir}\" --secret \"{secret}\"",
+  "manifest_version": 2,
+  "target": "{exedir}/SteelX_Patcher_2.exe",
+  "target_arguments": [
+    {
+      "value": [
+        "--installdir",
+        "{installdir}"
+      ]
+    },
+    {
+      "value": [
+        "--lockfile",
+        "{lockfile}"
+      ]
+    },
+    {
+      "value": [
+        "--secret",
+        "{secret}"
+      ]
+    }
+  ]
+}
